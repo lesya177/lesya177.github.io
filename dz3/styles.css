@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-manu {
+  vertical-align: middle;
+  margin: 0;
+  padding: 95px;
+  text-align: center;
+}
+
+.main-manu li {
+  display: inline-block;
+}
+
+.main-manu li:not(:last-child) {
+  margin-right: 100px;
+}
+
+.main-manu a {
+  color: #626262;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Playfair Displey";
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: 400px;
+}
+.main-manu a:hover,
+.main-manu a:focus {
+  color: #03a9f4;
+}
+
+.cards-list {
+  margin: 0;
+  padding: 0;
+}
+
+.cards-list-item {
+  display: inline-block;
+  width: 420px;
+  margin-right: 56px;
+  margin-bottom: 132px;
+  vertical-align: top;
+}
+.cards-list-item:nth-child(2) {
+  margin-right: 0;
+}
+
+.cards-list-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(250, 0, 0, 0);
+  border: 1px solid #626262;
+  width: 164px;
+  height: 60px;
+  margin-bottom: 70px;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #626262;
+  cursor: pointer;
+}
+
+.text {
+  color: #626262;
+font-family: "Playfair Display";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+}
+
+h4 {
+  color: #b4ad9e;
+font-family: Ubuntu;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+h2 {
+  color: #626262;
+font-family: "Playfair Display";
+font-size: 30px;
+font-weight: 400;
+}
+
+.cards-list p {
+  color: #626262;
+font-family: "Playfair Display";
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+body {
+  font-family: "Playfair Display";
+}
